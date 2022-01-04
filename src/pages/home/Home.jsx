@@ -1,7 +1,9 @@
-import Chart from "../../components/featuredInfo/chart/Chart";
+import Chart from "../../components/chart/Chart";
 import FeaturedInfo from "../../components/featuredInfo/FeaturedInfo";
 import "./home.css";
 import { userData } from "../../dummyData";
+import WidgetSmall from "../../components/widgetSmall/WidgetSmall";
+import WidgetLarge from "../../components/widgetLarge/WidgetLarge";
 
 export default function Home() {
 	return (
@@ -13,7 +15,10 @@ export default function Home() {
 				grid
 				dataKey="Active User"
 			/>
-			<div className="homeWidgets"></div>
+			<div className="homeWidgets">
+				<WidgetSmall />
+				<WidgetLarge />
+			</div>
 		</div>
 	);
 }
