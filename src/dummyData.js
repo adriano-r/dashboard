@@ -48,6 +48,20 @@ export const userData = [
 		"Active User": 3490,
 	},
 ];
+export const productData = [
+	{
+		name: "Jan",
+		Sales: 4000,
+	},
+	{
+		name: "Fev",
+		Sales: 3000,
+	},
+	{
+		name: "Mar",
+		Sales: 5000,
+	},
+];
 
 export const userRows = [
 	{
@@ -89,5 +103,47 @@ export const userRows = [
 		email: "jon@gmail.com",
 		status: "active",
 		transaction: "$120.00",
+	},
+];
+export const productRows = [
+	{
+		id: 1,
+		name: "Apple Airdrops",
+		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2F28c21eecb5fee37f06567d4e31931aa7%2Ftumblr_pbbpe0jlIB1vjn53fo1_500.png&f=1&nofb=1",
+		stock: 123,
+		status: "active",
+		price: "$120.00",
+	},
+	{
+		id: 2,
+		name: "Apple Airdrops",
+		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2F28c21eecb5fee37f06567d4e31931aa7%2Ftumblr_pbbpe0jlIB1vjn53fo1_500.png&f=1&nofb=1",
+		stock: 123,
+		status: "active",
+		price: "$120.00",
+	},
+	{
+		id: 3,
+		name: "Apple Airdrops",
+		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2F28c21eecb5fee37f06567d4e31931aa7%2Ftumblr_pbbpe0jlIB1vjn53fo1_500.png&f=1&nofb=1",
+		stock: 123,
+		status: "active",
+		price: "$120.00",
+	},
+	{
+		id: 4,
+		name: "Apple Airdrops",
+		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2F28c21eecb5fee37f06567d4e31931aa7%2Ftumblr_pbbpe0jlIB1vjn53fo1_500.png&f=1&nofb=1",
+		stock: 123,
+		status: "active",
+		price: "$120.00",
+	},
+	{
+		id: 5,
+		name: "Apple Airdrops",
+		img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2F28c21eecb5fee37f06567d4e31931aa7%2Ftumblr_pbbpe0jlIB1vjn53fo1_500.png&f=1&nofb=1",
+		stock: 123,
+		status: "active",
+		price: "$120.00",
 	},
 ];
